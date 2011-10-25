@@ -5,7 +5,7 @@
     zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
     *display: inline;
     vertical-align: middle;
-    margin: 0 2px;
+    margin: 0 2px 5px;
     outline: none;
     cursor: pointer;
     text-align: center;
@@ -19,8 +19,8 @@
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
     box-shadow: 0 1px 2px rgba(0,0,0,.2);
-    width: 90%; /* Remove this to make it horizontally fit the text */
-    height: 90%; /* Remove this to make vertically fit the text */
+    width: 100px; /* Remove this to make it horizontally fit the text */
+    height: 50px; /* Remove this to make vertically fit the text */
 }
 .button:hover {
     text-decoration: none;
@@ -177,6 +177,28 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
     background: -moz-linear-gradient(top,  #0078a5,  #00adee);
     filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/* yellow */
+.yellow {
+    color: #d9eef7;
+    border: solid 1px #9e9c00;
+    background: #ddda00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddda00), to(#a7a600));
+    background: -moz-linear-gradient(top,  #ddda00,  #a7a600);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddda00', endColorstr='#a7a600');
+}
+.yellow:hover {
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cfcd00), to(#a19f00));
+    background: -moz-linear-gradient(top,  #cfcd00,  #a19f00);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfcd00', endColorstr='#a19f00');
+}
+.yellow:active {
+    color: #80bed6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddda00), to(#a7a600));
+    background: -moz-linear-gradient(top,  #ddda00,  #a7a600);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ddda00', endColorstr='#a7a600');
 }
 
 /* rosy */

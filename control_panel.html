@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title> Control Panel</title>
+        <title>Control Panel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="buttons.css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -12,125 +12,41 @@
         </script>
     </head>
     <body>
-        <table width="100%" height="100%">
-            <tr>
-                <td>
-                    <a href="./demo.php" class="button green"> Begin Game </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                     <a href="./select_winner.php" class="button blue"> Select Winner </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                     <a href="./end_game.php" class="button orange"> End Game </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <table width="100%" height="100%">
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('pass')" class="button orange"> Passing </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('rush')" class="button orange"> Rushing </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('touchdown')" class="button orange"> Touchdown </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('turnover')" class="button orange"> Turnover </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('field goal')" class="button orange"> Field goal </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('interception')" class="button orange"> Interception </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('score')" class="button orange"> Score </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('Quarter')" class="button orange"> Quarter </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('season')" class="button orange"> Season </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('connected')" class="button orange"> Connected </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('how long')" class="button orange"> How Long </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('penalties')" class="button orange"> Penalties </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('tackles')" class="button orange"> Tackles </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('sacks')" class="button orange"> Sacks </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('opponents')" class="button orange"> Opponents </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('overtime')" class="button orange"> overtime </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('field goal')" class="button orange"> Field Goal </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('Possession')" class="button orange"> Possession </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('points')" class="button orange"> Points </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('ball')" class="button orange"> Ball </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('interceptions')" class="button orange"> Interceptions </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('fumbles')" class="button orange"> Fumbles </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                 <a href="javascript:append_question('kickoff')" class="button orange"> Kickoff </a>
-                            </td>
-                            <td>
-                                 <a href="javascript:append_question('kickoff')" class="button orange"> Kickoff </a>
-                            </td>
-                        </tr>
-                        
-                    </table>
-                </td>
-            </tr>
-        </table>
+    	<div style="text-align: center;">
+    		<div style="margin-bottom: 30px;">
+    		   <a href="./demo.php" class="button green"> Begin Game </a>
+    		   <a href="./select_winner.php" class="button yellow"> Select Winner </a>
+    		   <a href="./end_game.php" class="button red"> End Game </a>
+    		</div>
+    		<div>
+	    		<div style="float: left; width: 50%; ">
+	    			  <a href="javascript:append_question('pass')" class="button blue"> Passing </a>
+	    			  <a href="javascript:append_question('touchdown')" class="button blue"> Touchdown </a>
+	    			  <a href="javascript:append_question('interception')" class="button blue"> Interception </a>
+	    			  <a href="javascript:append_question('Quarter')" class="button blue"> Quarter </a>
+	    			  <a href="javascript:append_question('connected')" class="button blue"> Connected </a>
+	    			  <a href="javascript:append_question('penalties')" class="button blue"> Penalties </a>
+	    			  <a href="javascript:append_question('sacks')" class="button blue"> Sacks </a>
+	    			  <a href="javascript:append_question('overtime')" class="button blue"> Overtime </a>
+	    			  <a href="javascript:append_question('Possession')" class="button blue"> Possession </a>
+	    			  <a href="javascript:append_question('ball')" class="button blue"> Ball </a>
+	    			  <a href="javascript:append_question('fumbles')" class="button blue"> Fumbles </a>
+	    			  <a href="javascript:append_question('kickoff')" class="button blue"> Kickoff </a>
+	    		</div>
+	    		<div style="float: left; width: 50%; ">
+	    			  <a href="javascript:append_question('rush')" class="button blue"> Rushing </a>
+	    			  <a href="javascript:append_question('field goal')" class="button blue"> Field goal </a>
+	    			  <a href="javascript:append_question('score')" class="button blue"> Score </a>
+	    			  <a href="javascript:append_question('season')" class="button blue"> Season </a>
+	    			  <a href="javascript:append_question('how long')" class="button blue"> How Long </a>
+	    			  <a href="javascript:append_question('tackles')" class="button blue"> Tackles </a>
+	    			  <a href="javascript:append_question('opponents')" class="button blue"> Opponents </a>
+	    			  <a href="javascript:append_question('field goal')" class="button blue"> Field Goal </a>
+	    			  <a href="javascript:append_question('points')" class="button blue"> Points </a>
+	    			  <a href="javascript:append_question('interceptions')" class="button blue"> Interceptions </a>
+	    			  <a href="javascript:append_question('kickoff')" class="button blue"> Kickoff </a>
+	    		</div>
+    		</div>
+    	</div>
     </body>
 </html>
