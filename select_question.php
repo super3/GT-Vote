@@ -45,31 +45,29 @@
 			echo "<script type=\"text/javascript\"> window.location.href=\"display_results.php\";</script>"; 
 		}
 		else
-		{
-                        
-			
-                        echo "<table width=\"100%\" height=\"100%\">";
-                        echo "<tr height=\"10%\"><td>";
-                        echo "<p align=\"center\"> ";
-                        echo 'Score : '.get_user_result($_SESSION['user_name'])."<br />";
-                        echo $_SESSION['last_answer'];
+		{            
+            echo "<table width=\"100%\" height=\"100%\">";
+            echo "<tr height=\"10%\"><td>";
+            echo "<p align=\"center\"> ";
+            echo 'Score : '.get_user_result($_SESSION['user_name'])."<br />";
+            echo $_SESSION['last_answer'];
 			echo "<br />";
 			$_SESSION['current_question'] = $current_question[0];
-                        echo "</p>";
-                        echo "</td></tr>";
-                        echo "<tr height=\"40%\"><td>";
-                        echo "<p align=\"center\"> ".$current_question[0]."</p>";
-                        echo "</td></tr>";
-                        echo "<tr height=\"16%\" width=\"100%\"><td>";
-                        echo "<a href=\"javascript:send_answer('".$current_question[1]."')\" class=\"button orange\">".$current_question[1]."</a>";
-                        echo "</td></tr>";
-                        echo "<tr height=\"16%\"><td>";
-                        echo "<a href=\"javascript:send_answer('".$current_question[2]."')\" class=\"button orange\"> ".$current_question[2]."</a>";
-                        echo "</td></tr>";
-                        echo "<tr height=\"18%\"><td>";
-                        echo "<a href=\"javascript:send_answer('".$current_question[3]."')\" class=\"button orange\"> ".$current_question[3]."</a>";
-                        echo "</td></tr>";
-                        echo "</table>";
+            echo "</p>";
+            echo "</td></tr>";
+            echo "<tr height=\"40%\"><td>";
+            echo "<p align=\"center\"> ".$current_question[0]."</p>";
+            echo "</td></tr>";
+            echo "<tr height=\"16%\" width=\"100%\"><td>";
+            echo "<a href=\"javascript:send_answer('".$current_question[1]."')\" class=\"button orange\">".$current_question[1]."</a>";
+            echo "</td></tr>";
+            echo "<tr height=\"16%\"><td>";
+            echo "<a href=\"javascript:send_answer('".$current_question[2]."')\" class=\"button orange\"> ".$current_question[2]."</a>";
+            echo "</td></tr>";
+            echo "<tr height=\"18%\"><td>";
+            echo "<a href=\"javascript:send_answer('".$current_question[3]."')\" class=\"button orange\"> ".$current_question[3]."</a>";
+            echo "</td></tr>";
+            echo "</table>";
                         
 		}
 	

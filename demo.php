@@ -23,7 +23,7 @@
 	
 	//Inserts the information into the given Table
 	mysql_query("TRUNCATE TABLE  `".$questions_table."`",$sql_connection);
-        mysql_query("TRUNCATE TABLE  `".$questions_bank."`",$sql_connection);
+    mysql_query("TRUNCATE TABLE  `".$questions_bank."`",$sql_connection);
 	mysql_query("TRUNCATE TABLE  `".$results_table."`",$sql_connection);
 	
         
@@ -60,6 +60,9 @@
 	mysql_close($sql_connection);
 ?>
 
-<html><head>
+<html>
+<head>
 <meta http-equiv="refresh" content="1;url=control_panel.html">
-</head><body></body></html>
+</head>
+<body></body>
+</html>

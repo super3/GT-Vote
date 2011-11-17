@@ -15,8 +15,8 @@
 	{
 		$_SESSION['last_answer']="Opps! No points for that last one :(";
 	}
-	echo "<html><head>";
-        echo "<meta http-equiv=\"refresh\" content=\"1;url=select_question.php\">";
-        echo "</head><body></body></html>";
-	
+	echo "<html>";
+    echo "<head><meta http-equiv=\"refresh\" content=\"1;url=select_question.php\"></head>";
+    echo "<body></body>";
+    echo "</html>";
 ?>

@@ -19,7 +19,7 @@
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
     box-shadow: 0 1px 2px rgba(0,0,0,.2);
-    width: 100px; /* Remove this to make it horizontally fit the text */
+    width: 90px; /* Remove this to make it horizontally fit the text */
     height: 50px; /* Remove this to make vertically fit the text */
 }
 .button:hover {
